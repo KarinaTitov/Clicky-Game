@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Homer Simpson",
+    "image": "https://imgix.ranker.com/user_node_img/59/1174847/original/homer-simpson-film-characters-photo-u5?w=87&h=87&fit=crop&crop=faces&q=60&fm=pjpg",
+    "clicked": false
+    
+  },
+  {
+    "id": 2,
+    "name": "Bart Simpson",
+    "image": "https://imgix.ranker.com/user_node_img/28/546802/original/bart-simpson-film-characters-photo-u5?w=120&h=120&q=60&fm=pjpg&fit=crop&crop=faces",
+    "clicked": false
+    
+  },
+  {
+    "id": 3,
+    "name": "Mr. Burns",
+    "image": "https://imgix.ranker.com/user_node_img/81/1611544/original/montgomery-burns-u10?w=120&h=120&q=60&fm=pjpg&fit=crop&crop=faces",
+    "clicked": false
+    
+  },
+  {
+    "id": 4,
+    "name": "Marge Simpson",
+    "image": "https://imgix.ranker.com/user_node_img/76/1519066/original/marge-simpson-film-characters-photo-u5?w=120&h=120&q=60&fm=pjpg&fit=crop&crop=faces",
+    "clicked": false
+   
+  },
+  {
+    "id": 5,
+    "name": "Grampa Simpson",
+    "image": "https://imgix.ranker.com/user_node_img/20/392374/original/abraham-simpson-film-characters-photo-u4?w=120&h=120&q=60&fm=pjpg&fit=crop&crop=faces",
+    "clicked": false
+   
+  },
+  {
+    "id": 6,
+    "name": "Moe Szyslak",
+    "image": "https://imgix.ranker.com/user_node_img/81/1604131/original/moe-szyslak-film-characters-photo-u3?w=120&h=120&q=60&fm=pjpg&fit=crop&crop=faces",
+    "clicked": false
+  
+  },
+  {
+    "id": 7,
+    "name": "Maggie Simpson",
+    "image": "https://imgix.ranker.com/user_node_img/75/1498358/original/maggie-simpson-film-characters-photo-u1?w=120&h=120&q=60&fm=pjpg&fit=crop&crop=faces",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Ralph Wiggum",
+    "image": "https://imgix.ranker.com/user_node_img/94/1870167/original/ralph-wiggum-film-characters-photo-u3?w=120&h=120&q=60&fm=pjpg&fit=crop&crop=faces",
+    "clicked": false
+  }
+]

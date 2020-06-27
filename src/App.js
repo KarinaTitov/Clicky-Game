@@ -11,19 +11,9 @@ class App extends Component {
     friends,
     score: 0,
     top: 0,
-    alert: ""
+    alert: "DON'T CLICK TWICE"
   };
-
-  // componentDidMount() {
-  //   this.shuffleFriends();
-  // }
-  // for(let i = array.length — 1; i > 0; i--){
-  // const j = Math.floor(Math.random() * i)
-  // const temp = array[i]
-  // array[i] = array[j]
-  // array[j] = temp
-  // }
-  shuffleFriends = () => {
+   shuffleFriends = () => {
     
     this.state.friends.sort(function(a, b){return 0.5 - Math.random()});
   }

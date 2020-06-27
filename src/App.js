@@ -10,7 +10,8 @@ class App extends Component {
   state = {
     friends,
     score: 0,
-    top: 0
+    top: 0,
+    alert: ""
   };
 
   // componentDidMount() {
@@ -36,6 +37,7 @@ class App extends Component {
 
     this.setState({
       score: newScore,
+      alert: "YOU ARE DOING A GOOD JOB! KEEP IT UP!",
       top: newTopScore
     })
   }
@@ -43,9 +45,10 @@ class App extends Component {
 
   incorrectGuess = () => {
 
-    alert("Already been clicked");
+    this.shuffleFriends();
     this.setState({
       score: 0,
+      alert: "OUCH! YOU CAN'T CLICK TWICE SAME CARD",
       friends
     })
   }
@@ -69,8 +72,10 @@ chooseFriend = async(id) => {
 
     if (guessedCor) {
       this.correctGuess();
+
     } else {
       this.incorrectGuess();
+      
     }
 this.shuffleFriends();
   };
@@ -80,10 +85,12 @@ this.shuffleFriends();
     return (
       <Wrapper>
         <Nav>
-          <ul>
+         <h1>Clicky Game</h1>
+
+         <h1>{this.state.alert}</h1>
             Score: {this.state.score}
           Top Score: {this.state.top}
-          </ul>
+         
         </Nav>
 
         <Title>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
+import Grid from "./components/Grid"
 import Title from "./components/Title";
 import Nav from "./components/ScoreBar"
 import friends from "./friends.json";
@@ -73,18 +74,21 @@ this.shuffleFriends();
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <Wrapper>
-        <Nav>
-         <h1>Clicky Game</h1>
 
-         <h1>{this.state.alert}</h1>
-            Score: {this.state.score}
-          Top Score: {this.state.top}
-         
-        </Nav>
+      <Wrapper>  
+        
+         <Nav score={this.state.score}
+            topScore={this.state.top}
+            alert={this.state.alert}>         
+        </Nav>      
+        
+        
+        <Grid>
+     
+       
+     
 
         <Title>
-          <h1>Clicky Game</h1>
           <p>Click on an image to earn points, but don't click on any more than once!</p>
         </Title>
         {this.state.friends.map(friend => (
@@ -96,7 +100,8 @@ this.shuffleFriends();
             image={friend.image}
           />
         ))}
-      </Wrapper>
+        </Grid>
+    </Wrapper>
     );
   }
 }

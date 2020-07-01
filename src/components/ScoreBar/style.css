@@ -1,0 +1,13 @@
+.navbar {
+    background-color: orangered;
+    padding: 30px; 
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#score {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
